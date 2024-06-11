@@ -1,0 +1,11 @@
+.my-container{
+  display: flex;
+  justify-content: center;
+  height: 361px;
+  margin-top: 58px;
+}
+
+.card {
+  background-color: white;
+  width: 40%;
+}
