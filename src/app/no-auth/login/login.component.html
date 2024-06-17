@@ -1,14 +1,19 @@
 <div class="my-container">
   <div class="card">
-    <p>login Page</p>
-    <div>
-      <input type="text" placeholder="email">
+    <div ><img class="image" src="../../../assets/login.jpg"/></div>
+    <div class="inner-content">
+      <p style="font-weight: 800;">Login</p>
+      <div>
+        <input type="text" placeholder="Email" class="input-box">
+      </div>
+      <div>
+        <input type="password" placeholder="Password" class="input-box">
+      </div>
+      <button routerLink="/products" class="button-design">Login</button>
+      <div class="signup-text">
+        Don't have an account sign up <a routerLink="/signup"> <b style="color: #ff3c6c;"> click here </b> </a>
+      </div>
     </div>
-    <div>
-      <input type="password" placeholder="password">
-    </div>
-    <button routerLink="/products">Login</button>
 
-    Don't have an account sign up here <a routerLink="/signup" > Click here  </a>
   </div>
 </div>
